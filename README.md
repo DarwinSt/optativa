@@ -50,4 +50,3 @@ Sin sincronización, varios hilos pueden leer y modificar el mismo dato a la vez
 
 Al sincronizar (por ejemplo con `synchronized` en Java), se garantiza que las operaciones sobre el recurso compartido (lectura, decisión y escritura) se vean como **atómicas**: ningún otro hilo puede entrar en medio. Así se evita que el saldo quede negativo o que se pierdan operaciones, como en la cuenta bancaria del ejercicio 2.
 
-En resumen: la sincronización es necesaria para que el acceso a recursos compartidos sea seguro y predecible, y para que se cumplan las reglas del negocio (por ejemplo: saldo nunca negativo).
